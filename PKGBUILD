@@ -20,7 +20,7 @@ sha256sums=('97fc51ac2b085d4cde31ef4d2c3122c21abc217e9090a43a30fc5ec21684e059' '
 validpgpkeys=('19882D92DDA4C400C22C0D56CC2AF4472167BE03') # Thomas Dickey
 
 build() {
-    cd ${_pkgname}-${pkgver}
+    cd ${_pkgname}-${_pkgver}
 
     ./configure \
         --prefix=/usr \
@@ -40,7 +40,7 @@ build() {
 }
 
 package() {
-    cd ${_pkgname}-${pkgver}
+    cd ${_pkgname}-${_pkgver}
 
     make DESTDIR="$pkgdir" install.libs
     install -Dm644 COPYING "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
