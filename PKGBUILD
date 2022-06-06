@@ -1,6 +1,6 @@
 # Maintainer: Green-Avocado <greenavocado@protonmail.com>
-# Maintainer: Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
-# Maintainer: Mateusz Gozdek <mgozdekof@gmail.com>
+# Contributor: Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
+# Contributor: Mateusz Gozdek <mgozdekof@gmail.com>
 # Contributor: Allan McRae <allan@archlinux.org>
 # Contributor: judd <jvinet@zeroflux.org>
 # Contributor: Nick Shipp <git@segbrk.com>
